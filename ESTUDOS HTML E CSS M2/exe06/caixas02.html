@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
+            background-color: rgb(116, 255, 248);
+            
+        }
+        header{
+            background-color: aliceblue;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        main{
+            background-color: beige;
+            width: 800px;
+            text-align: center;
+            margin: auto;
+            
+            
+                    }
+
+        article > aside {
+            background-color: blueviolet;
+        }            
+        nav{
+            background-color: rgb(255, 0, 200);
+            padding: 2px;
+            box-shadow: 1px 10px 5px  darkcyan;
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bolder;
+            margin-right: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 500px;
+            margin: auto;
+            padding: 5px;
+            margin-top: 50px;
+        }
+        footer > p {
+            margin: 0;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: blueviolet;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+        <a href="https://google.com">Link</a>
+        <a href="https://google.com">Link</a>
+        <a href="https://google.com">Link</a>
+        <a href="https://google.com">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="assunto">
+            <article>
+                <h2>Testando artidos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt amet voluptatem, assumenda sunt distinctio quam consectetur inventore natus molestias dicta, cumque repudiandae quo. Est alias voluptatem totam quaerat itaque nostrum?</p>
+                <aside>
+                    Artigo escrito por mim
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo mais lindo</p>
+    </footer>
+
+    <div id="bola"></div>
+
+
+
+
+</body>
+</html>

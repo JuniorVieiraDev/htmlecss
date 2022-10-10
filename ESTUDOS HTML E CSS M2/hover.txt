@@ -1,0 +1,27 @@
+div:hover{
+            color: blueviolet;
+
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: blueviolet;
+            background-color: chartreuse;
+            width: 200px;
+        }
+
+
+div:hover {
+            color: aqua;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: rgb(255, 0, 179);
+            color: rgb(0, 0, 0);
+            width: 200px;
+        }
